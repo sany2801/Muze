@@ -1,0 +1,91 @@
+
+.formAuthorization{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.formAuthorization h2{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-align: center;
+    font-size: 64px;
+}
+.formAuthorization input{
+    height: 40px;
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    cursor:text;
+}
+
+.inputPassword{
+    width: 100%;
+    position: relative;
+}
+.password-control{
+    width: 30px;
+    height: 20px;
+    background-image: url(../../images/PasswordControl.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+.password-controlActive{
+    background-image: url(../../images/free-icon-eye-159604.png);
+    width: 30px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+.formAuthorization input:focus{
+    outline: none;
+    background-color:beige;
+
+}
+.formAuthorization button{
+    background-color: rgb(96, 211, 96);
+    width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.btnClose{
+    width: 40px;
+    height: 40px;
+    background-image:url(../../images/close.png);
+    background-position: center;
+    background-size:contain;
+    position: absolute;
+    margin-top: 30px;
+    cursor: pointer;
+    right: 0;
+}
+.btnClose span{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color:black;
+    bottom: 18px;
+    z-index: -2;
+}
+.btnClose span:nth-child(1){
+    transform: rotate(45deg);
+}
+.btnClose span{
+transform: rotate(-45deg);
+}
+
+

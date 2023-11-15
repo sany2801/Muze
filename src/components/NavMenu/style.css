@@ -1,0 +1,56 @@
+.nav_wrapper{
+    width:  100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* background-color: rgb(128, 201, 45); */
+}
+
+.nav_wrapper ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: auto;
+    height: 100px;
+}
+.wrapper_ordering{
+    display: flex;
+    width: 100%;  
+    justify-content: space-between;
+    height: calc(100vh - 200px);
+}
+.list_menu{
+    width: 50%;
+    overflow: auto;
+} 
+
+
+::-webkit-scrollbar {
+    width: 20px;               /* ширина всей полосы прокрутки */
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);        /* цвет зоны отслеживания */
+  }
+::-webkit-scrollbar-thumb {
+    background-color: rgb(225, 255, 0);    /* цвет бегунка */
+  }
+  .orderList{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 20px;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .list_menu ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+  }
